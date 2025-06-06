@@ -33,7 +33,7 @@ export default function App() {
     }
   }, []);
 
-  if (!context) return <p>Cargando contexto...</p>;
+  if (!context) return <p>Cargando contexto..</p>;
 
   const currentTeam = context?.currentUser?.team?.name;
 
