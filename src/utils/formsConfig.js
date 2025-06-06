@@ -1,7 +1,7 @@
 export const forms = [
   {
     form: "Supply",
-    teamsAuthorized: ["Logistica", "CX"]
+    teamsAuthorized: ["61a28b7f53f220a1f3a86aed"]
   },
   {
     form: "Operaciones",
