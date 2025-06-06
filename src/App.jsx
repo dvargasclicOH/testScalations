@@ -28,6 +28,7 @@ export default function App() {
   useEffect(() => {
     if (window.Kustomer) {
       window.Kustomer.getContext().then((ctx) => {
+        console.log("Contexto Kustomer recibido:", ctx);
         setContext(ctx);
       });
     }
